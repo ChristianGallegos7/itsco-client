@@ -7,7 +7,7 @@ export const Header = () => {
       <h2 className="text-white text-4xl font-bold">Itsco<span className='text-blue-300'>Jobs</span></h2>
       <div className="space-x-4">
         <Link to="/login" className="text-white hover:text-blue-300">Iniciar Sesión</Link>
-        <Link to="/signup" className="text-white hover:text-blue-300">Crear Cuenta</Link>
+        <Link to="/registro" className="text-white hover:text-blue-300">Crear Cuenta</Link>
       </div>
     </nav>
   );

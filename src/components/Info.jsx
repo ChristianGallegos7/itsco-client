@@ -12,7 +12,7 @@ export const Info = () => {
               Bienvenido a DevJobs
               <strong className="block font-extrabold text-rose-700">
                 {" "}
-                Forever Home.{" "}
+                Sobre Nosotros.{" "}
               </strong>
             </h1>
 
@@ -75,12 +75,15 @@ export const Info = () => {
               </span>
 
               <div>
-                <h2 className="text-lg font-bold">Lorem, ipsum dolor.</h2>
+                <h2 className="text-lg font-bold">
+                  Conoce nuestras soluciones tecnológicas innovadoras
+                </h2>
 
                 <p className="mt-1 text-sm text-gray-300">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                  cumque tempore est ab possimus quisquam reiciendis tempora
-                  animi! Quaerat, saepe?
+                  Nuestro equipo de expertos en tecnología crea soluciones
+                  personalizadas para tus necesidades empresariales, asegurando
+                  un rendimiento óptimo y una experiencia de usuario
+                  excepcional.
                 </p>
               </div>
             </div>
@@ -106,12 +109,15 @@ export const Info = () => {
               </span>
 
               <div>
-                <h2 className="text-lg font-bold">Lorem, ipsum dolor.</h2>
+                <h2 className="text-lg font-bold">
+                  Transformamos tus ideas en realidad
+                </h2>
 
                 <p className="mt-1 text-sm text-gray-300">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                  cumque tempore est ab possimus quisquam reiciendis tempora
-                  animi! Quaerat, saepe?
+                  Desde la concepción hasta la implementación, trabajamos
+                  contigo para convertir tus ideas en soluciones digitales
+                  innovadoras que impulsen el crecimiento de tu empresa y
+                  generen valor duradero.
                 </p>
               </div>
             </div>
@@ -137,16 +143,18 @@ export const Info = () => {
               </span>
 
               <div>
-                <h2 className="text-lg font-bold">Lorem, ipsum dolor.</h2>
+                <h2 className="text-lg font-bold">
+                  Optimizamos tu presencia digital
+                </h2>
 
                 <p className="mt-1 text-sm text-gray-300">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                  cumque tempore est ab possimus quisquam reiciendis tempora
-                  animi! Quaerat, saepe?
+                  Desde la estrategia de marketing digital hasta la optimización
+                  del rendimiento del sitio web, nuestro equipo de profesionales
+                  se asegura de que tu empresa se destaque en el competitivo
+                  mundo digital actual.
                 </p>
               </div>
             </div>
-
             <div className="flex items-start gap-4">
               <span className="shrink-0 rounded-lg bg-gray-800 p-4">
                 <svg
@@ -168,16 +176,18 @@ export const Info = () => {
               </span>
 
               <div>
-                <h2 className="text-lg font-bold">Lorem, ipsum dolor.</h2>
+                <h2 className="text-lg font-bold">
+                  Optimizamos tu presencia digital
+                </h2>
 
                 <p className="mt-1 text-sm text-gray-300">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                  cumque tempore est ab possimus quisquam reiciendis tempora
-                  animi! Quaerat, saepe?
+                  Desde la estrategia de marketing digital hasta la optimización
+                  del rendimiento del sitio web, nuestro equipo de profesionales
+                  se asegura de que tu empresa se destaque en el competitivo
+                  mundo digital actual.
                 </p>
               </div>
             </div>
-
             <div className="flex items-start gap-4">
               <span className="shrink-0 rounded-lg bg-gray-800 p-4">
                 <svg
@@ -199,16 +209,18 @@ export const Info = () => {
               </span>
 
               <div>
-                <h2 className="text-lg font-bold">Lorem, ipsum dolor.</h2>
+                <h2 className="text-lg font-bold">
+                  Optimizamos tu presencia digital
+                </h2>
 
                 <p className="mt-1 text-sm text-gray-300">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                  cumque tempore est ab possimus quisquam reiciendis tempora
-                  animi! Quaerat, saepe?
+                  Desde la estrategia de marketing digital hasta la optimización
+                  del rendimiento del sitio web, nuestro equipo de profesionales
+                  se asegura de que tu empresa se destaque en el competitivo
+                  mundo digital actual.
                 </p>
               </div>
             </div>
-
             <div className="flex items-start gap-4">
               <span className="shrink-0 rounded-lg bg-gray-800 p-4">
                 <svg
@@ -230,16 +242,20 @@ export const Info = () => {
               </span>
 
               <div>
-                <h2 className="text-lg font-bold">Lorem, ipsum dolor.</h2>
+                <h2 className="text-lg font-bold">
+                  Optimizamos tu presencia digital
+                </h2>
 
                 <p className="mt-1 text-sm text-gray-300">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                  cumque tempore est ab possimus quisquam reiciendis tempora
-                  animi! Quaerat, saepe?
+                  Desde la estrategia de marketing digital hasta la optimización
+                  del rendimiento del sitio web, nuestro equipo de profesionales
+                  se asegura de que tu empresa se destaque en el competitivo
+                  mundo digital actual.
                 </p>
               </div>
             </div>
           </div>
+          
         </div>
       </section>
     </>

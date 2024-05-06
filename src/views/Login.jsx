@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
 export const Login = () => {
@@ -16,7 +15,7 @@ export const Login = () => {
 
           <main className="flex items-center justify-center px-8 py-8 sm:px-12 lg:col-span-7 lg:px-16 lg:py-12 xl:col-span-6">
             <div className="max-w-xl lg:max-w-3xl">
-              <Link className="block text-blue-600" to={'/'}>
+              <Link className="block text-rose-600" to={'/'}>
                 <span className="sr-only">Home</span>
                 <svg
                   className="h-8 sm:h-10"
@@ -52,7 +51,7 @@ export const Login = () => {
                     type="email"
                     id="Email"
                     name="email"
-                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200"
+                    className="mt-1 p-2 border-2 border-rose-700 w-full rounded-md  bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200"
                   />
                 </div>
 
@@ -68,18 +67,18 @@ export const Login = () => {
                     type="password"
                     id="Password"
                     name="password"
-                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200"
+                    className="mt-1 w-full p-2 rounded-md border-2 border-rose-700 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200"
                   />
                 </div>
 
                 <div className="col-span-6 sm:flex sm:items-center sm:gap-4">
-                  <button className="inline-block shrink-0 rounded-md border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-transparent hover:text-blue-600 focus:outline-none focus:ring active:text-blue-500 dark:hover:bg-blue-700 dark:hover:text-white">
+                  <button className="inline-block shrink-0 rounded-md border border-rose-600 bg-rose-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-transparent hover:text-rose-600 focus:outline-none focus:ring active:text-rose-500 dark:hover:bg-rose-700 dark:hover:text-white">
                     Iniciar Sesión
                   </button>
 
                   <p className="mt-4 text-sm text-gray-500 sm:mt-0 dark:text-gray-400">
                     No tienes una cuenta?
-                    <Link to={'/registro'} className="text-white"> Registrate</Link>
+                    <Link to={'/registro'} className="text-rose-900"> Registrate</Link>
                     .
                   </p>
                 </div>

@@ -25,7 +25,7 @@ export const Header = () => {
             <ul className="flex items-center gap-6 text-sm">
               <li>
                 <Link
-                  className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75 text-3xl"
+                  className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75 text-3xl font-black"
                   to={'/'}
                 >
                   DevJobs

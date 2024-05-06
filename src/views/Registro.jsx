@@ -14,7 +14,7 @@ export const Registro = () => {
           />
 
           <div className="hidden lg:relative lg:block lg:p-12">
-            <a className="block text-white" href="#">
+            <a className="block text-rose-700" href="#">
               <span className="sr-only">Home</span>
               <svg
                 className="h-8 sm:h-10"
@@ -83,7 +83,7 @@ export const Registro = () => {
                   type="text"
                   id="FirstName"
                   name="first_name"
-                  className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200"
+                  className="mt-1 w-full rounded-md border-2 p-2 border-rose-700 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200"
                 />
               </div>
 
@@ -99,7 +99,7 @@ export const Registro = () => {
                   type="text"
                   id="LastName"
                   name="last_name"
-                  className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200"
+                  className="mt-1 w-full rounded-md border-2 p-2 border-rose-700 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200"
                 />
               </div>
 
@@ -115,7 +115,7 @@ export const Registro = () => {
                   type="email"
                   id="Email"
                   name="email"
-                  className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200"
+                  className="mt-1 w-full rounded-md border-2 p-2 border-rose-700 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200"
                 />
               </div>
 
@@ -131,7 +131,7 @@ export const Registro = () => {
                   type="password"
                   id="Password"
                   name="password"
-                  className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200"
+                  className="mt-1 w-full rounded-md border-2 p-2 border-rose-700 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200"
                 />
               </div>
 
@@ -147,18 +147,18 @@ export const Registro = () => {
                   type="password"
                   id="PasswordConfirmation"
                   name="password_confirmation"
-                  className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200"
+                  className="mt-1 w-full rounded-md border-2 p-2 border-rose-700 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200"
                 />
               </div>
 
               <div className="col-span-6 sm:flex sm:items-center sm:gap-4">
-                <button className="inline-block shrink-0 rounded-md border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-transparent hover:text-blue-600 focus:outline-none focus:ring active:text-blue-500 dark:hover:bg-blue-700 dark:hover:text-white">
+                <button className="inline-block shrink-0 rounded-md border border-rose-600 bg-rose-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-transparent hover:text-rose-600 focus:outline-none focus:ring active:text-rose-500 dark:hover:bg-rose-700 dark:hover:text-white">
                   Crea una Cuenta
                 </button>
 
                 <p className="mt-4 text-sm text-gray-500 sm:mt-0 dark:text-gray-400">
                     Ya tienes una cuenta? 
-                    <Link to={'/login'} className="text-white"> Inicia Sesión</Link>
+                    <Link to={'/login'} className="text-rose-900"> Inicia Sesión</Link>
                     .
                   </p>
               </div>

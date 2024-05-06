@@ -2,11 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 export const Registro = () => {
- 
-
- 
-
-
 
   return (
     <section className="bg-white dark:bg-gray-900">
@@ -14,7 +9,7 @@ export const Registro = () => {
         <section className="relative flex h-32 items-end bg-gray-900 lg:col-span-5 lg:h-full xl:col-span-6">
           <img
             alt=""
-            src="https://images.unsplash.com/photo-1617195737496-bc30194e3a19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            src="/registrar.jpg"
             className="absolute inset-0 h-full w-full object-cover opacity-80"
           />
 
@@ -158,19 +153,14 @@ export const Registro = () => {
 
               <div className="col-span-6 sm:flex sm:items-center sm:gap-4">
                 <button className="inline-block shrink-0 rounded-md border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-transparent hover:text-blue-600 focus:outline-none focus:ring active:text-blue-500 dark:hover:bg-blue-700 dark:hover:text-white">
-                  Create an account
+                  Crea una Cuenta
                 </button>
 
                 <p className="mt-4 text-sm text-gray-500 sm:mt-0 dark:text-gray-400">
-                  Already have an account?
-                  <a
-                    href="#"
-                    className="text-gray-700 underline dark:text-gray-200"
-                  >
-                    Log in
-                  </a>
-                  .
-                </p>
+                    Ya tienes una cuenta? 
+                    <Link to={'/login'} className="text-white"> Inicia Sesión</Link>
+                    .
+                  </p>
               </div>
             </form>
           </div>

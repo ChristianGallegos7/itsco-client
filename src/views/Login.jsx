@@ -9,7 +9,7 @@ export const Login = () => {
           <aside className="relative block h-16 lg:order-last lg:col-span-5 lg:h-full xl:col-span-6">
             <img
               alt=""
-              src="https://images.unsplash.com/photo-1605106702734-205df224ecce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+              src="/login.jpg"
               className="absolute inset-0 h-full w-full object-cover"
             />
           </aside>
@@ -79,7 +79,7 @@ export const Login = () => {
 
                   <p className="mt-4 text-sm text-gray-500 sm:mt-0 dark:text-gray-400">
                     No tienes una cuenta?
-                    <Link to={'/registro'}>Registrate</Link>
+                    <Link to={'/registro'} className="text-white"> Registrate</Link>
                     .
                   </p>
                 </div>

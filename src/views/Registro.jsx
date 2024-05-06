@@ -70,34 +70,47 @@ export const Registro = () => {
             <form className="mt-8 grid grid-cols-6 gap-6">
               <div className="col-span-6 sm:col-span-3">
                 <label
-                  htmlFor="FirstName"
+                  htmlFor="nombre"
                   className="block text-sm font-medium text-gray-700 dark:text-gray-200"
                 >
-                  First Name
+                  Nombre
                 </label>
 
                 <input
                   type="text"
-                  id="FirstName"
-                  name="first_name"
+                  id="nombre"
+                  name="nombre"
                   className="mt-1 w-full rounded-md border-2 p-2 border-rose-700 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200"
                 />
               </div>
 
               <div className="col-span-6 sm:col-span-3">
                 <label
-                  htmlFor="LastName"
+                  htmlFor="apellido"
                   className="block text-sm font-medium text-gray-700 dark:text-gray-200"
                 >
-                  Last Name
+                  Apellido
                 </label>
 
                 <input
                   type="text"
-                  id="LastName"
-                  name="last_name"
+                  id="apellido"
+                  name="apellido"
                   className="mt-1 w-full rounded-md border-2 p-2 border-rose-700 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200"
                 />
+              </div>
+
+              <div className="col-span-6">
+                <label
+                  htmlFor="rol"
+                  className="block text-sm font-medium text-gray-700 dark:text-gray-200"
+                >
+                  Rol
+                </label>
+
+                <select name="rol" id="rol" className="mt-1 w-full rounded-md border-2 p-2 border-rose-700 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200">
+                  <option>-- Seleccione --</option>
+                </select>
               </div>
 
               <div className="col-span-6">

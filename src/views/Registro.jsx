@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 
 export const Registro = () => {
-
   return (
     <section className="bg-white dark:bg-gray-900">
       <div className="lg:grid lg:min-h-screen lg:grid-cols-12">
@@ -13,7 +12,7 @@ export const Registro = () => {
           />
 
           <div className="hidden lg:relative lg:block lg:p-12">
-            <a className="block text-rose-700" href="#">
+            <Link className="block text-rose-700" to={'/'}>
               <span className="sr-only">Home</span>
               <svg
                 className="h-8 sm:h-10"
@@ -26,7 +25,7 @@ export const Registro = () => {
                   fill="currentColor"
                 />
               </svg>
-            </a>
+            </Link>
 
             <h2 className="mt-6 text-2xl font-bold text-white sm:text-3xl md:text-4xl">
               Registro a DevJobs💻
@@ -41,9 +40,9 @@ export const Registro = () => {
         <main className="flex items-center justify-center px-8 py-8 sm:px-12 lg:col-span-7 lg:px-16 lg:py-12 xl:col-span-6">
           <div className="max-w-xl lg:max-w-3xl">
             <div className="relative -mt-16 block lg:hidden">
-              <a
-                className="inline-flex size-16 items-center justify-center rounded-full bg-white text-blue-600 sm:size-20 dark:bg-gray-900"
-                href="#"
+              <Link
+                className="inline-flex size-16 items-center justify-center rounded-full bg-white text-rose-600 sm:size-20 dark:bg-gray-900"
+                to={"/"}
               >
                 <span className="sr-only">Home</span>
                 <svg
@@ -57,15 +56,14 @@ export const Registro = () => {
                     fill="currentColor"
                   />
                 </svg>
-              </a>
+              </Link>
 
               <h1 className="mt-2 text-2xl font-bold text-gray-900 sm:text-3xl md:text-4xl dark:text-white">
-                Welcome to Squid 🦑
+                Registro a DevJobs💻
               </h1>
 
               <p className="mt-4 leading-relaxed text-gray-500 dark:text-gray-400">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Eligendi nam dolorum aliquam, quibusdam aperiam voluptatum.
+                El mejor lugar para buscar empleo en la industria tecnológica.
               </p>
             </div>
 
@@ -156,10 +154,13 @@ export const Registro = () => {
                 </button>
 
                 <p className="mt-4 text-sm text-gray-500 sm:mt-0 dark:text-gray-400">
-                    Ya tienes una cuenta? 
-                    <Link to={'/login'} className="text-rose-900"> Inicia Sesión</Link>
-                    .
-                  </p>
+                  Ya tienes una cuenta?
+                  <Link to={"/login"} className="text-rose-900">
+                    {" "}
+                    Inicia Sesión
+                  </Link>
+                  .
+                </p>
               </div>
             </form>
           </div>

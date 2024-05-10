@@ -5,7 +5,7 @@ export const Header = () => {
   return (
     <header className="bg-white dark:bg-gray-900">
       <div className="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8">
-        <a className="block text-rose-600 dark:text-rose-300" href="#">
+        <a className="block text-rose-600 dark:text-rose-600" href="#">
           <span className="sr-only">Home</span>
           <Icon/>
         </a>

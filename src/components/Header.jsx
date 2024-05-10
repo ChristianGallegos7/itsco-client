@@ -5,7 +5,7 @@ export const Header = () => {
   return (
     <header className="bg-white dark:bg-gray-900">
       <div className="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8">
-        <a className="block text-teal-600 dark:text-teal-300" href="#">
+        <a className="block text-rose-600 dark:text-rose-300" href="#">
           <span className="sr-only">Home</span>
           <Icon/>
         </a>
@@ -30,14 +30,14 @@ export const Header = () => {
                 className="block rounded-md bg-rose-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-rose-700 dark:hover:bg-rose-500"
                 to={'/login'}
               >
-                Login
+                Iniciar Sesión
               </Link>
 
               <Link
                 className="block rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600 transition hover:text-teal-600/75 dark:bg-gray-800 dark:text-white dark:hover:text-white/75"
                 to={'/registro'}
               >
-                Register
+                Crear Cuenta
               </Link>
             </div>
           </div>
@@ -47,14 +47,14 @@ export const Header = () => {
               className="block rounded-md bg-rose-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-rose-700 dark:hover:bg-rose-500"
               to={'/login'}
             >
-              Login
+              Iniciar Sesión
             </Link>
 
             <Link
               className="block rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600 transition hover:text-teal-600/75 dark:bg-gray-800 dark:text-white dark:hover:text-white/75"
               to={'/registro'}
             >
-              Register
+              Crear Cuenta
             </Link>
           </div>
         </div>
